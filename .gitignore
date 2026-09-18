@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# Local files
+*.log
+.DS_Store
+Thumbs.db
+
+# PDF source documents
+*.pdf
+documents/
+source_documents/
+
+# Temporary RAG files
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
